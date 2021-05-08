@@ -3,12 +3,7 @@
 ![branch](https://user-images.githubusercontent.com/81007682/117524590-06c19700-aff9-11eb-98d0-bd5fc1b8a2d7.JPG)
 ![ch](https://user-images.githubusercontent.com/81007682/117524591-075a2d80-aff9-11eb-94ca-94f0d82d309b.JPG)
 ![checkout](https://user-images.githubusercontent.com/81007682/117524592-075a2d80-aff9-11eb-9ec3-f9aff90c3e9f.JPG)
-![clone1](https://user-images.githubusercontent.com/81007682/117524593-07f2c400-aff9-11eb-8c8b-f1d4d9521761.JPG)
-![clone2](https://user-images.githubusercontent.com/81007682/117524594-07f2c400-aff9-11eb-8c38-357c6e01f7d4.JPG)
-![clone3](https://user-images.githubusercontent.com/81007682/117524595-088b5a80-aff9-11eb-9be6-e3d87de38083.JPG)
 ![commit](https://user-images.githubusercontent.com/81007682/117524597-088b5a80-aff9-11eb-953d-94e75c9078d8.JPG)
-![config1](https://user-images.githubusercontent.com/81007682/117524598-0923f100-aff9-11eb-8e4f-bf9b5336e614.jpg)
-![init](https://user-images.githubusercontent.com/81007682/117524600-09bc8780-aff9-11eb-97a9-0ca31b94ba45.JPG)
 ![log](https://user-images.githubusercontent.com/81007682/117524603-09bc8780-aff9-11eb-9a6a-e9fb7d2daa99.JPG)
 ![merge](https://user-images.githubusercontent.com/81007682/117524605-0a551e00-aff9-11eb-88ee-041421f83078.JPG)
 ![mp](https://user-images.githubusercontent.com/81007682/117524606-0a551e00-aff9-11eb-9d97-7e66491dd7be.JPG)
@@ -21,7 +16,6 @@
 ![rebase2](https://user-images.githubusercontent.com/81007682/117524616-0cb77800-aff9-11eb-8402-66ffe2322d3a.JPG)
 ![rebase3](https://user-images.githubusercontent.com/81007682/117524618-0d500e80-aff9-11eb-9ac1-689c156bdb2b.JPG)
 ![rebase4](https://user-images.githubusercontent.com/81007682/117524619-0d500e80-aff9-11eb-8b68-0eba17a8a8be.JPG)
-![remote](https://user-images.githubusercontent.com/81007682/117524621-0de8a500-aff9-11eb-85b2-0063f43648b4.JPG)
 ![reset](https://user-images.githubusercontent.com/81007682/117524622-0de8a500-aff9-11eb-85a9-3d031729db5e.JPG)
 ![reset2](https://user-images.githubusercontent.com/81007682/117524623-0e813b80-aff9-11eb-9000-32c1d3859b99.JPG)
 ![status](https://user-images.githubusercontent.com/81007682/117524625-0e813b80-aff9-11eb-8343-7aaaa0809b1c.JPG)
@@ -41,7 +35,7 @@ markdown project 보고서
 
 Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사용자의 이름과 이메일 주소를 설정한다. ( Git을 이용하여 커밋할 때 누가 커밋했는지 지금의 정보가 남게된다. )
 
-![config](config1.jpg)
+![config1](https://user-images.githubusercontent.com/81007682/117524598-0923f100-aff9-11eb-8e4f-bf9b5336e614.jpg)
 
 따라서 **git config**의 명령은 사용자의 정보를 저장하고 설정을 확인하기 위해 사용될 수 있다.
 
@@ -55,7 +49,7 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 # **init**
 > 프로젝트 문서를 관리할 새로운 git 저장소를 생성하기 위해서 init이라는 명령어를 사용했다.
 
- ![init](init.jpg)
+ ![init](https://user-images.githubusercontent.com/81007682/117524600-09bc8780-aff9-11eb-97a9-0ca31b94ba45.JPG)
 
 따라서, **git init**는 새로운 Git 저장소(repository)를 생성할 때 사용하는 할 수 있다.
 
@@ -64,7 +58,7 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 # **remote**
 > 각 팀원들이 git저장소를 로컬 저장소와 연결하기 위해 remote 명령어를 사용했다.
 
- ![remote](remote.jpg)
+![remote](https://user-images.githubusercontent.com/81007682/117524621-0de8a500-aff9-11eb-85b2-0063f43648b4.JPG)
 
 **remote**는 각자의 로컬 저장소에 연결하고, 저장소의 구체적인 정보들을 확인할 수 있다.
 
@@ -79,18 +73,18 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 # **clone**
 > 프로젝트의 **첫번째 부분**을 담당한 팀원이 GitHub의 레파지토리에 자신의 문서를 올려 다른 담당한 팀원들이 해당 레파지토리에서 자신의 폴더에 파일을 가져오기 위하여 git clone의 명령어를 사용했다.
 
-![clone1](clone1.jpg)
+![clone1](https://user-images.githubusercontent.com/81007682/117524593-07f2c400-aff9-11eb-8c8b-f1d4d9521761.JPG)
 
 해당  GitHub의 레파지스토리의 HTTPS를 복사하고, **git clone** 명령어를 이용해 자신이 원하는 폴더에 레파지스토리의 소스를 전부 복사한다. 
 
 
-![clone2](clone2.jpg)
+![clone2](https://user-images.githubusercontent.com/81007682/117524594-07f2c400-aff9-11eb-8c38-357c6e01f7d4.JPG)
 
 <br>
 
 Markdown project의 폴더에 GitHub의 폴더가 생성되어 Github의 레파지스토리의 소스가 전부 복사된 것을 확인 할 수 있다.
 
-![clone3](clone3.jpg)
+![clone3](https://user-images.githubusercontent.com/81007682/117524595-088b5a80-aff9-11eb-9be6-e3d87de38083.JPG)
 
 이 복사된 소스를 맘대로 수정하거나 파괴해도 리모트 서버에 업로드만 하지 않는다면, 같은 리모트 서버를 보고 있는 다른 팀원이 영향을 받을 일은 절대 없기 때문에 안심하고 맘대로 만지작거려도 된다.
 
