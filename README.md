@@ -34,11 +34,11 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 <br>
 
 # **remote**
-> 각 팀원들이 git저장소를 로컬 저장소와 연결하기 위해 remote 명령어를 사용했다.
+> 각 팀원들이 git저장소를 각자 개인의 노트북에 있는 로컬 저장소와 연결하기 위해 remote 명령어를 사용했다.
 
 ![remote](https://user-images.githubusercontent.com/81007682/117524621-0de8a500-aff9-11eb-85b2-0063f43648b4.JPG)
 
-**remote**는 각자의 로컬 저장소에 연결하고, 저장소의 구체적인 정보들을 확인할 수 있다.
+**remote**는 각자의 로컬 저장소에 연결하고, 저장소의 구체적인 정보들을 확인할 때 사용할 수 있다.
 
 `'git remote add 이름 주소'`는 해당 이름으로 로컬 저장소에 연결을 할 수 있고, <br>
 `'git remote'` 명령으로 현재 프로젝트에 등록된 리모트 저장소를 확인이 가능하며 <br>
@@ -49,7 +49,7 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 <br>
 
 # **clone**
-> 프로젝트의 **첫번째 부분**을 담당한 팀원이 GitHub의 레파지토리에 자신의 문서를 올려 다른 담당한 팀원들이 해당 레파지토리에서 자신의 폴더에 파일을 가져오기 위하여 git clone의 명령어를 사용했다.
+> 프로젝트의 **첫번째 부분**을 담당한 팀원이 GitHub의 레파지토리에 자신의 문서를 올린 상태에서 다른 담당한 팀원들이 해당 레파지토리에서 자신의 폴더에 파일을 가져오기 위하여 git clone의 명령어를 사용했다.
 
 ![clone1](https://user-images.githubusercontent.com/81007682/117524593-07f2c400-aff9-11eb-8c8b-f1d4d9521761.JPG)
 
@@ -78,7 +78,7 @@ Markdown project의 폴더에 GitHub의 폴더가 생성되어 Github의 레파�
 
 ![add](https://user-images.githubusercontent.com/81007682/117524587-05906a00-aff9-11eb-94ce-0b2072d447ba.JPG)
 
-**git add** 의 명령을 통해 Github폴더의 feedback.txt 파일을 staging area 상태에 놓았다. 따라서, 이 명령어는 파일을 staging area에 놓을 수 있게 만드는 명령어다.
+**git add** 의 명령을 통해 Github폴더의 feedback.txt 파일을 staging area 상태에 놓았다. 따라서, 이 명령어는 파일을 올리기 위해 커밋을 할 수 있는 단계인 staging area에 놓을 수 있게 만드는 명령어라고 정리할 수 있다.
 
 +) **git add** 의 뒤에 `.` 을 입력하면 모든 파일을 staging area 상태로 만들 수도 있고, 특정한 `문서파일`을 입력하면 해당 파일만 staging area 상태로 만들 수 있다.
 
@@ -99,16 +99,16 @@ Markdown project의 폴더에 GitHub의 폴더가 생성되어 Github의 레파�
 git add 명령을 실행 한 뒤
 다시 **git status** 명령을 하여 파일의 상태를 확인하면 feedback.txt파일이 staging area에 놓여진 것을 확인 할 수 있다. 
 
- **git status**명령어는 파일들의 상태를 확인 할 때 사용이 되고,  `git status -s` 또는 `git status --short` 처럼 옵션을 넣으면 현재 변경한 상태를 짤막하게 보여준다.
+**git status**명령어는 파일들이 수정되거나 추가되었을 때 어떤 상태에 놓여져 있는지 확인을 할 때 사용할 수 있다고 정리할 수 있고,  `git status -s` 또는 `git status --short` 처럼 옵션을 넣으면 현재 변경한 상태를 짤막하게 보여준다.
 
 <br>
 
 # **commit**
-> 위에서 staging area에 놓여져 있는 feedback.txt파일을 git commit 명령어를 사용하여 수정본을 제출한다.
+> 위에서 staging area에 놓여져 있는 feedback.txt파일을 제출하기 위해서 git commit 명령어를 사용하였다.
 
 ![commit](https://user-images.githubusercontent.com/81007682/117524597-088b5a80-aff9-11eb-953d-94e75c9078d8.JPG)
 
-git commit의 명령어는 수정본을 제출 할 때 사용이 된다.
+git commit의 명령어는 수정된 상태를 제출 할 때 사용이 된다.
 
 `git commit -m` 는 뒤에 " "안에 바로 커밋 메세지 작성할 수 있고, <br>
 `git commit -a` 는 별도의 add명령어를 사용하지 않고 수정된 파일에 대해 add, commit을 한번에 수행한다. (단, 한번도 add되지 않은 파일은 add를 따로 작업 해줘야함.) <br>
@@ -135,7 +135,7 @@ git commit의 명령어는 수정본을 제출 할 때 사용이 된다.
 
 ![log](https://user-images.githubusercontent.com/81007682/117524603-09bc8780-aff9-11eb-9a6a-e9fb7d2daa99.JPG)
 
-**git log** 의 명령어를 통해서 Git에는 히스토리를 조회할 수 있다.<br>
+**git log** 의 명령어를 통해서 Git에는 수정하겨 commit된 커밋 히스토리를 조회할 수 있다.<br>
  `git log --oneline`는 히스토리를 한줄로 보여주고, <br>`git log -p` 는 각 커밋의 diff 결과를 보여준다. <br>
  `git log -2`는 최근 두 개의 결과만 보여주고, <br>
 `git log --stat` 옵션은 각 커밋의 히스토리 통계 정보를 조회할 수 있다.
@@ -147,10 +147,10 @@ git commit의 명령어는 수정본을 제출 할 때 사용이 된다.
 
 ![reset](https://user-images.githubusercontent.com/81007682/117524622-0de8a500-aff9-11eb-85a9-3d031729db5e.JPG)
 
-**git reset --hard**의 명령어를 이용하여 커밋했던 피드백파일을 제거한다. 
+위에서 얻은 커밋의 해시값을 넣어 **git reset --hard**의 명령어를 이용하여 커밋했던 피드백파일을 제거한다. (해시값을 넣은 이후의 커밋을 모두 제거가 된다.)
 <br>
 
-따라서, reset 명령은 head를 이동시키거나 commit명령을 되돌릴 때 사용할 수 있다.
+따라서, reset 명령은 commit한 파일들을 되돌리고, 제거하고 싶을 때 커밋의 해시값을 입력하여 사용을 할 수 있다.
 <br>
 
 `--hard` : reset하기 전까지 했던 staging area, working directory의 작업까지 모두 reset! <br>
@@ -261,7 +261,7 @@ branch를 main으로 이동해준 뒤에, git merge 의 명령을 사용해 feed
 
 ![rebase0](https://user-images.githubusercontent.com/81007682/117524614-0cb77800-aff9-11eb-810f-ccfef8458d6c.JPG)
 
-git log를 사용하여 알아낸 commit값을 **git rebase -i 값**에 넣어서 명령을 실행한다.
+git log를 사용하여 알아낸 commit의 해시값을 **git rebase -i 값**에 넣어서 명령을 실행한다.
 
 <br>
 
