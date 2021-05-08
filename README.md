@@ -29,7 +29,7 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 
  ![init](https://user-images.githubusercontent.com/81007682/117524600-09bc8780-aff9-11eb-97a9-0ca31b94ba45.JPG)
 
-따라서, **git init**는 새로운 Git 저장소(repository)를 생성할 때 사용하는 할 수 있다.
+따라서, **git init**는 새로운 Git 저장소(repository)를 생성할 때 사용하는 명령어이다.
 
 <br>
 
