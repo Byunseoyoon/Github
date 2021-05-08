@@ -287,15 +287,7 @@ git log명령어를 통해 commit의 메세지가 바뀐 것을 확인 할 수 �
 `git rebase --onto branch1 branch2 branch3` 이 옵션은 branch1 브랜치부터 branch2 와 branch3의 공통 조상까지의 커밋을 branch3 브랜치에서 없애고 싶을 때 사용한다.
 
 
-![add2](https://user-images.githubusercontent.com/81007682/117524588-06c19700-aff9-11eb-9bb1-acf07a1c40a5.JPG)
-
-
-
-![rebase2](https://user-images.githubusercontent.com/81007682/117524616-0cb77800-aff9-11eb-8402-66ffe2322d3a.JPG)
-
-
-
-
+<br>
 
 <br>
 
