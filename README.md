@@ -25,7 +25,7 @@ Git 설치 이후 첫 설정으로 **git config**명령어를 이용하여 사�
 <br>
 
 # **init**
-> 프로젝트 문서를 관리할 새로운 git 저장소를 생성하기 위해서 init이라는 명령어를 사용했다.
+> git을 설치한 이후, 프로젝트 문서를 관리할 새로운 git 저장소를 생성하기 위해서 init이라는 명령어를 사용했다.
 
  ![init](https://user-images.githubusercontent.com/81007682/117524600-09bc8780-aff9-11eb-97a9-0ca31b94ba45.JPG)
 
